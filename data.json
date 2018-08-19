@@ -1,0 +1,71 @@
+{
+  "projects": [
+    {
+      "id": 0,
+      "project_name": "Random Quote Generator",
+      "description": "Displays a randomly selected quote each time the user clicks a button",
+      "technologies": [
+        "JavaScript", 
+        "HTML", 
+        "CSS"
+      ],
+      "live_link": "none available"
+    },
+    {
+      "id": 1,
+      "project_name": "Pagination and Content Filter",
+      "description": "Use JavaScript to dynamically divide a long list into \"pages\". As a bonus, a search feature is added.",
+      "technologies": [
+        "JavaScript", 
+        "HTML", 
+        "CSS"
+      ],
+      "live_link":"none available"
+    },
+    {
+      "id": 2,
+      "project_name": "Interactive Form",
+      "description": "Create a form that uses unobtrusive JavaScript to validate user input and make the form interactive.",
+      "technologies": [
+        "JavaScript", 
+        "HTML", 
+        "CSS"
+      ],
+      "live_link": "none available"
+    },
+    {
+      "id": 3,
+      "project_name": "Tic-Tac-Toe",
+      "description": "A two-person game of Tic-Tac-Toe with the optional ability to play the computer.",
+      "technologies": [
+        "JavaScript", 
+        "HTML", 
+        "CSS"
+      ],
+      "live_link": "none available"
+    },
+    {
+      "id": 4,
+      "project_name": "Employee Directory",
+      "description": "Uses a third-party API to retrieve information and display it on a webpage.",
+      "technologies": [
+        "JavaScript", 
+        "HTML", 
+        "CSS",
+        "API"
+      ],
+      "live_link": "none available"
+    },
+    {
+      "id": 5,
+      "project_name": "Content Scraper",
+      "description": "A command line application to scrape data from a page and its subpages.",
+      "technologies": [
+        "JavaScript", 
+        "Node.js",
+        "npm"
+      ],
+      "live_link": "none available"
+    }
+  ]
+}
