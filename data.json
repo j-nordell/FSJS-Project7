@@ -9,8 +9,8 @@
         "HTML", 
         "CSS"
       ],
-      "live_link": "none available",
-      "github_link": "",
+      "live_link": "https://j-nordell.github.io/FSJS-Project1/",
+      "github_link": "https://github.com/j-nordell/FSJS-Project1",
       "image_urls": []
     },
     {
@@ -23,7 +23,7 @@
         "CSS"
       ],
       "live_link":"none available",
-      "github_link": "",
+      "github_link": "https://github.com/j-nordell/FSJS-Project2",
       "image_urls": []
     },
     {
@@ -76,6 +76,20 @@
         "npm"
       ],
       "live_link": "none available",
+      "github_link": "",
+      "image_urls": []
+    }, 
+    {
+      "id": 6,
+      "project_name": "Portfolio site",
+      "description": "The site you're currently viewing. (recursion warning)",
+      "technologies": [
+        "JavaScript",
+        "Node.js",
+        "Express.js",
+        "pug"
+      ],
+      "live_link": "",
       "github_link": "",
       "image_urls": []
     }
