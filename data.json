@@ -48,8 +48,8 @@
         "HTML", 
         "CSS"
       ],
-      "live_link": "none available",
-      "github_link": "",
+      "live_link": "https://j-nordell.github.io/FSJS-Project4/",
+      "github_link": "https://github.com/j-nordell/FSJS-Project4",
       "image_urls": []
     },
     {
@@ -62,8 +62,8 @@
         "CSS",
         "API"
       ],
-      "live_link": "none available",
-      "github_link": "",
+      "live_link": "https://j-nordell.github.io/FSJS-Project5/",
+      "github_link": "https://github.com/j-nordell/FSJS-Project5",
       "image_urls": []
     },
     {
@@ -75,8 +75,8 @@
         "Node.js",
         "npm"
       ],
-      "live_link": "none available",
-      "github_link": "",
+      "live_link": "#",
+      "github_link": "https://github.com/j-nordell/FSJS-Project6",
       "image_urls": []
     }, 
     {
@@ -89,8 +89,8 @@
         "Express.js",
         "pug"
       ],
-      "live_link": "",
-      "github_link": "",
+      "live_link": "#",
+      "github_link": "https://github.com/j-nordell/FSJS-Project7",
       "image_urls": []
     }
   ]
