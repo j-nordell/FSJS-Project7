@@ -1,14 +1,16 @@
 const express = require('express');
 const path = require('path');
-
-const projectData = path.basename('data.json');
+;
 const app = express();
+const { projects } = require('./data.json');
+
+console.log(projects);
 
 app.use('/static', express.static('public'));
 app.set('view engine', 'pug');
 
 app.get('/', (req, res) => {
-  res.render('index');
+  res.render('index', { projects });
 });
 
 app.get('/about', (req, res) => {

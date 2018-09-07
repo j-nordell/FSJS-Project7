@@ -1,0 +1,61 @@
+:root {
+  /*  Marine and Coral Theme 
+  --main-bg-color: #F5F0C8;
+  --info-bg-color:   #2F343B;
+*/
+  /* Chocolate and Coral */
+  --main-bg-color: rgb(238, 233, 228);
+  --info-bg-color: #2F343B;
+  --nav-bg-color:  #7E827A;
+  --action-color:  #C77966;
+  --constrast-color:  rgb(95, 121, 4);
+
+  /*`Fonts */
+  --script-font: 'Shadows Into Light', cursive;
+  --sans-font:  'IBM Plex Sans', sans-serif;
+}
+
+body {
+  background-color: var(--main-bg-color);
+}
+
+#my-info,
+.hide-for-large {
+  background-color: var(--info-bg-color);
+}
+
+h1 {
+  font-family: var(--script-font);
+  color: var(--info-bg-color);
+}
+
+p {
+  font-family: var(--sans-font);
+}
+
+nav {
+  background-color:  var(--nav-bg-color);
+}
+
+.portfolio-breadcrumb a {
+  color: var(--main-bg-color);
+}
+
+.portfolio-breadcrumb a:hover {
+  text-shadow: 2px 2px 2px var(--action-color);
+}
+
+.title-bar {
+  background-color: var(--action-color);
+}
+.title-bar-title:before {
+  content: "\00a0 \00a0";
+}
+
+.button {
+  background-color: var(--constrast-color);
+}
+
+.button:hover {
+  background-color: var(--action-color);
+}
