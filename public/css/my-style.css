@@ -9,6 +9,7 @@
   --nav-bg-color:  #7E827A;
   --action-color:  #C77966;
   --constrast-color:  rgb(95, 121, 4);
+  --link-color:  rgb(141, 170, 37);
 
   /*`Fonts */
   --script-font: 'Shadows Into Light', cursive;
@@ -31,6 +32,16 @@ h1 {
 
 p {
   font-family: var(--sans-font);
+}
+
+li a,
+p a {
+  color: var(--link-color);
+}
+
+li a:hover,
+p a:hover {
+  color: var(--action-color);
 }
 
 nav {
