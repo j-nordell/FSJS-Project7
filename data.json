@@ -22,7 +22,7 @@
         "HTML", 
         "CSS"
       ],
-      "live_link":"none available",
+      "live_link": "https://j-nordell.github.io/FSJS-Project2/",
       "github_link": "https://github.com/j-nordell/FSJS-Project2",
       "image_urls": []
     },
@@ -35,14 +35,14 @@
         "HTML", 
         "CSS"
       ],
-      "live_link": "none available",
-      "github_link": "",
+      "live_link": "https://j-nordell.github.io/FSJS-Project3/",
+      "github_link": "https://github.com/j-nordell/FSJS-Project3",
       "image_urls": []
     },
     {
       "id": 3,
       "project_name": "Tic-Tac-Toe",
-      "description": "A two-person game of Tic-Tac-Toe with the optional ability to play the computer.",
+      "description": "A two-person game of Tic-Tac-Toe with the option to play the computer.",
       "technologies": [
         "JavaScript", 
         "HTML", 
