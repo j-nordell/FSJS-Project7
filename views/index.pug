@@ -18,7 +18,7 @@ block content
       each project in projects
         .cell
           a(href=`/project/${project.id}`)
-            img.thumbnail(src=`""` alt=`"${project.img_alt_text}"`)
+            img.thumbnail(src=`${project.image_urls[0]}` alt=`"${project.img_alt_text}"`)
             h5= `${project.project_name}`
       //- Use a combination of interpolation and template literals as needed to dynamically generate the the routes in the href, as well as the img's src and the projects title.
       

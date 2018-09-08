@@ -11,7 +11,7 @@
       ],
       "live_link": "https://j-nordell.github.io/FSJS-Project1/",
       "github_link": "https://github.com/j-nordell/FSJS-Project1",
-      "image_urls": []
+      "image_urls": ["/static/images/p1-4.png", "/static/images/p1-3.png", "/static/images/p1-1.png"]
     },
     {
       "id": 1,
@@ -24,7 +24,7 @@
       ],
       "live_link": "https://j-nordell.github.io/FSJS-Project2/",
       "github_link": "https://github.com/j-nordell/FSJS-Project2",
-      "image_urls": []
+      "image_urls": ["/static/images/p2-2.png","/static/images/p2-1.png"]
     },
     {
       "id": 2,
@@ -37,7 +37,7 @@
       ],
       "live_link": "https://j-nordell.github.io/FSJS-Project3/",
       "github_link": "https://github.com/j-nordell/FSJS-Project3",
-      "image_urls": []
+      "image_urls": ["/static/images/p3-1.png","/static/images/p3-2.png","/static/images/p3-3.png","/static/images/p3-4.png"]
     },
     {
       "id": 3,
@@ -50,7 +50,7 @@
       ],
       "live_link": "https://j-nordell.github.io/FSJS-Project4/",
       "github_link": "https://github.com/j-nordell/FSJS-Project4",
-      "image_urls": []
+      "image_urls": ["/static/images/p4-1.png", "/static/images/p4-2.png", "/static/images/p4-3.png"]
     },
     {
       "id": 4,
@@ -64,7 +64,7 @@
       ],
       "live_link": "https://j-nordell.github.io/FSJS-Project5/",
       "github_link": "https://github.com/j-nordell/FSJS-Project5",
-      "image_urls": []
+      "image_urls": ["/static/images/p5-1.png","/static/images/p5-2.png","/static/images/p5-3.png"]
     },
     {
       "id": 5,
@@ -75,9 +75,9 @@
         "Node.js",
         "npm"
       ],
-      "live_link": "#",
+      "live_link": "",
       "github_link": "https://github.com/j-nordell/FSJS-Project6",
-      "image_urls": []
+      "image_urls": ["/static/images/p6-1.png", "/static/images/p6-2.png"]
     }, 
     {
       "id": 6,
@@ -89,9 +89,9 @@
         "Express.js",
         "pug"
       ],
-      "live_link": "#",
+      "live_link": "",
       "github_link": "https://github.com/j-nordell/FSJS-Project7",
-      "image_urls": []
+      "image_urls": ["/static/images/p7-1.png", "/static/images/p7-2.png"]
     }
   ]
 }
