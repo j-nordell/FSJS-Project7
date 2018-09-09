@@ -11,8 +11,12 @@ router.get('/about', (req, res) => {
   res.render('about');
 });
 
-router.get('/project/:id', (req, res, next) => {
+router.get('/project/:id', (req, res) => {
   const { id } = req.params;
+
+  if(id < 0 || id > projects.length - 1 || isNaN(id)) {
+    return res.redirect('/project/0');
+  }
   const project = projects[id];
   res.render('project', { project });
 });
