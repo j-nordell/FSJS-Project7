@@ -7,19 +7,26 @@ router.get('/', (req, res) => {
   res.render('index', { projects });
 });
 
-router.get('/project', (req, res) => {
-  const randomProjectId = Math.floor(Math.random(projects.length));
-  res.redirect(`project/${randomProjectId}`);
+router.get('/about', (req, res) => {
+  res.render('about');
 });
 
-router.get('/project/:id', (req, res) => {
+router.get('/project/:id', (req, res, next) => {
   const { id } = req.params;
   const project = projects[id];
   res.render('project', { project });
 });
 
-router.get('/about', (req, res) => {
-  res.render('about');
+router.use((req, res, next) => {
+  const err = new Error('Not Found');
+  err.status = 404;
+  next(err);
+},
+(err, req, res, next) => {
+  res.locals.error = err;
+  res.status(err.status);
+  res.render('error', err);
+  console.log(`Error! Status code: ${err.status} Message: ${err.message}`);
 });
 
 module.exports = router;
