@@ -90,9 +90,9 @@ Finally, start your server. Your app should listen on port 3000, and log a strin
 
 ### Complete your Pug Files
 
-- [ ] Go through each of the four Pug templates to inject your data. The Pug files contain comments that detail each change you will need to make. You can and should delete these comments when you are finished with this step. But you should wait to do so until everything is working as it should, in case you need to refer to these notes during development.
+- [x] Go through each of the four Pug templates to inject your data. The Pug files contain comments that detail each change you will need to make. You can and should delete these comments when you are finished with this step. But you should wait to do so until everything is working as it should, in case you need to refer to these notes during development.
 
-- [ ] Leave the example HTML
+- [x] Leave the example HTML
 
 ### Layout, CSS and styles
 

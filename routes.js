@@ -15,7 +15,13 @@ router.get('/about', (req, res) => {
 
 // Render the project associated with the id given in the parameters
 router.get('/project/:id', (req, res) => {
-  const { id } = req.params;
+  let { id } = req.params;
+  // ====================================
+  // IMPORTANT
+  // app crashes if parameter string has a preceding 0 such as project/02.
+  // Must parse to int at base 10 for proper results
+  // =====================================
+  id = parseInt(id, 10);
 
   // if the id is not valid or doesn't currently exist redirect the user to a randomly chosen project
   if (id < 0 || id > projects.length - 1 || isNaN(id)) {
