@@ -12,13 +12,13 @@
 
 ### Meets Expectations
 
-- [ ] The node_modules folder is referenced in the .gitignore file and isn't in the repo.
-- [ ] Running npm install downloads all necessary dependencies.
-- [ ] Running node app.js serves the app.
+- [x] The node_modules folder is referenced in the .gitignore file and isn't in the repo.
+- [x] Running npm install downloads all necessary dependencies.
+- [x] Running node app.js serves the app.
 
 ### Exceeds Expectations
 
-- [ ] Running npm start serves the app.
+- [x] Running npm start serves the app.
 
 ---
 
@@ -39,15 +39,15 @@
 
 ### Meets Expectations
 
-- [ ] The data.json file is present.
-- [ ] The data.json file contains a projects property set to an array containing at least five objects that each contain the following properties:
-  - [ ] id
-  - [ ] project_name
-  - [ ] description
-  - [ ] technologies
-  - [ ] live_link
-  - [ ] github_link
-  - [ ] image_urls
+- [x] The data.json file is present.
+- [x] The data.json file contains a projects property set to an array containing at least five objects that each contain the following properties:
+  - [x] id
+  - [x] project_name
+  - [x] description
+  - [x] technologies
+  - [x] live_link
+  - [x] github_link
+  - [x] image_urls
 
 ---
 
@@ -63,10 +63,10 @@
 
 ### Meets Expectations
 
-- [ ] The following routes do render the appropriate pages:
-  - [ ]  / - Home page
-  - [ ] /about - About page
-  - [ ] /project or /projects route that includes a project id parameter *App uses a static route to serve the static files in the public folder
+- [ x The following routes do render the appropriate pages:
+  - [x]  / - Home page
+  - [x] /about - About page
+  - [x] /project or /projects route that includes a project id parameter *App uses a static route to serve the static files in the public folder
 
 ---
 
@@ -90,21 +90,21 @@
 ### Meets Expectations
 
 - The following templates,
-  - [ ] layout.pug
-  - [ ] index.pug
-  - [ ] about.pug
-  - [ ] project.pug have all of the required information as exampled in the provided HTML and mockup files:
-  - [ ] name
-  - [ ] titles
-  - [ ] descriptions
-  - [ ] project descriptions
-  - [ ] project images
-  - [ ] links
+  - [x] layout.pug
+  - [x] index.pug
+  - [x] about.pug
+  - [x] project.pug have all of the required information as exampled in the provided HTML and mockup files:
+  - [x] name
+  - [x] titles
+  - [x] descriptions
+  - [x] project descriptions
+  - [x] project images
+  - [x] links
 - [ ] Starter comments have been removed from pug files.
 
 ### Exceeds Expectations
 
-- [ ] error.pug template has been created.
+- [x] error.pug template has been created.
 
 ---
 
@@ -116,14 +116,14 @@
 
 ### Meets Expectations
 
-- [ ] App logs out a user friendly error message to the console when the app is pointed at a non-existent route such as /error/error.
+- [x] App logs out a user friendly error message to the console when the app is pointed at a non-existent route such as /error/error.
 
 ### Exceeds Expectations
 
-- [ ] When the app is directed at a non-existent route, like /error/error, the app displays a user friendly error page in the browser that details the following:
-  - [ ] error.message
-  - [ ] error.status
-  - [ ] error.stack
+- [x] When the app is directed at a non-existent route, like /error/error, the app displays a user friendly error page in the browser that details the following:
+  - [x] error.message
+  - [x] error.status
+  - [x] error.stack
 
 ---
 
@@ -131,16 +131,16 @@
 
 ### Needs Work
 
-- [ ] Final project's layout and positioning does not match the example HTML or mockup files.
+- Final project's layout and positioning does not match the example HTML or mockup files.
 
 ### Meets Expectations
 
-- [ ] Final project's layout and positioning does match the example HTML or mockup files.
+- [x] Final project's layout and positioning does match the example HTML or mockup files.
 
 ### Exceeds Expectations
 
-- [ ] Project has at least three of the following items customized:
-  - [ ] color
-  - [ ] background color
-  - [ ] font
-  - [ ] box or text
+- [x] Project has at least three of the following items customized:
+  - [x] color
+  - [x] background color
+  - [x] font
+  - [x] box or text
