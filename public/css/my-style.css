@@ -71,3 +71,14 @@ nav {
 .button:hover {
   background-color: var(--action-color);
 }
+
+
+#minor-link {
+  text-transform: none;
+  color: var(--link-color);
+}
+
+#minor-link:hover {
+  text-transform: none;
+  color: var(--action-color);
+}

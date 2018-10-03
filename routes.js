@@ -26,7 +26,7 @@ router.get('/project/:id', (req, res) => {
   // if the id is not valid or doesn't currently exist redirect the user to a randomly chosen project
   if (id < 0 || id > projects.length - 1 || isNaN(id)) {
     const randIndex = Math.floor(Math.random() * projects.length);
-    console.log(`That project does not exist. Redirecting to project ${randIndex}`);
+    //console.log(`That project does not exist. Redirecting to project ${randIndex}`);
     return res.redirect(`/project/${randIndex}`);
   }
 
@@ -46,7 +46,8 @@ router.use((req, res, next) => {
   res.locals.error = err;
   res.status(err.status);
   res.render('error', err);
-  console.log(`Error! Status code: ${err.status} Message: ${err.message}`);
+
+  // console.log(`Error! Status code: ${err.status} Message: ${err.message}`);
 });
 
 module.exports = router;
